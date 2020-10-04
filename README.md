@@ -1,4 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Spotify Clone
+
+ What you'll be learning & what's in this build:
+
+* User authentication
+* Spotify API
+* Responsive Design
+* Material UI (icons)
+* React Context API (like Redux)
+* Modern Tech
+* React Hooks Functional (Hooks, State)
+* Entire REACT Tech Stack
+* Massive VALUE
+* Host on FIREBASE
 
 ## Available Scripts
 
