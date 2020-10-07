@@ -5,7 +5,7 @@ import {getTokenFromUrl} from "./spotify";
 import SpotifyWebApi from "spotify-web-api-js"
 import Player from "./Components/Player/Player";
 import {useDataLayerValue} from "./DataLayer";
-import {SET_PLAYLISTS, SET_TOKEN, SET_USER} from "./types";
+import {SET_DISCOVER_WEEKLY, SET_PLAYLISTS, SET_TOKEN, SET_USER} from "./types";
 
 const spotify = new SpotifyWebApi()
 
@@ -34,6 +34,13 @@ function App() {
                     playlists: playlists,
                 })
             })
+            spotify.getPlaylist('1ZvyewGc0aU6LWz8edCODQ')
+                .then(response => {
+                    dispatch({
+                        type: SET_DISCOVER_WEEKLY,
+                        discover_weekly: response,
+                    })
+                })
         }
         // eslint-disable-next-line
     }, [])

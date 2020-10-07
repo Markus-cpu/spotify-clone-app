@@ -1,16 +1,13 @@
 import React from "react";
 import "./Sidebar.css";
 import SidebarOptions from "./SidebarOptions/SidebarOptions";
-import PlayCircleFilledIcon from "@material-ui/icons/PlayCircleFilled";
-import FavoriteIcon from '@material-ui/icons/Favorite';
-import LibraryMusicOutlinedIcon from '@material-ui/icons/LibraryMusicOutlined';
 import SearchOutlinedIcon from '@material-ui/icons/SearchOutlined';
 import HomeOutlinedIcon from '@material-ui/icons/HomeOutlined';
 import LibraryMusicIcon from '@material-ui/icons/LibraryMusic';
 import {useDataLayerValue} from "../../../DataLayer";
 
 const Sidebar = () => {
-    const [{ playlists }, dispatch] = useDataLayerValue()
+    const [{ playlists }] = useDataLayerValue()
     return (
         <div className="sidebar">
             <img className="sidebar__logo"
