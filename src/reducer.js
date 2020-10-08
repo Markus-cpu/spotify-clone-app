@@ -6,7 +6,7 @@ export const initialState = {
     items: null,
     //После разработки приложения, токен установить в ноль(null)
     //REMOVE after finished developing
-    token: 'BQCnPktlhcCU2i4cVBRgaZKlyRjYyErmRWh6TJegI4XWra9oiZqxc9ddjAwuOFkTI8CLCLfoD8Y81JGUiSmTfJ4Ox6O2_d0QTFFb4phpYCnz6tGQcN3fuGtyB5G4SBl0ubGMFVjQrC_zX1KcndIkpzMBzqzYAwzEN9QE32GUSh_hj_v7',
+    // token: 'BQCnPktlhcCU2i4cVBRgaZKlyRjYyErmRWh6TJegI4XWra9oiZqxc9ddjAwuOFkTI8CLCLfoD8Y81JGUiSmTfJ4Ox6O2_d0QTFFb4phpYCnz6tGQcN3fuGtyB5G4SBl0ubGMFVjQrC_zX1KcndIkpzMBzqzYAwzEN9QE32GUSh_hj_v7',
 }
 
 const reducer = (state, action) => {
